@@ -8,11 +8,9 @@ public class Example14w {
         a = inputValue.nextInt();
 
         System.out.println("Enter second number");
-        inputValue = new Scanner(System.in);
         b = inputValue.nextInt();
 
         System.out.println("Enter third number");
-        inputValue = new Scanner(System.in);
         c = inputValue.nextInt();
 
 
@@ -21,7 +19,8 @@ public class Example14w {
         }
         if ((a < b) && (b > c) && (a > c)) {
             System.out.println(c + " " + a + " " + b);
-        } else if ((a < b) && (b > c) && (a < c)) {
+        } 
+        if ((a < b) && (b > c) && (a < c)) {
             System.out.println(a + " " + c + " " + b);
         }
         if ((a > b) && (b > c)) {
